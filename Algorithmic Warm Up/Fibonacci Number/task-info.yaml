@@ -3,8 +3,8 @@ files:
 - name: fibonacci_number.py
   visible: true
   placeholders:
-  - offset: 301
-    length: 193
+  - offset: 305
+    length: 205
     placeholder_text: type here
     initial_state:
       length: 9
