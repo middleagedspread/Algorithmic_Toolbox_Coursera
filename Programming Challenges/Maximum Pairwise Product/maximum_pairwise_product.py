@@ -1,9 +1,9 @@
 # python3
 
 
-def max_pairwise_product_naive(numbers):
-    assert len(numbers) >= 2
-    assert all(0 <= x <= 2 * 10 ** 5 for x in numbers)
+def max_pairwise_product_naive(numbers): # multiplies all pairs to find largest
+    assert len(numbers) >= 2 # checks at least two numbers input
+    assert all(0 <= x <= 2 * 10 ** 5 for x in numbers) #checks all input falls within problem bounds
 
     product = 0
 
@@ -28,7 +28,7 @@ def max_pairwise_product(number_list):
     else:
         biggest, second_biggest = number_list[1],  number_list[0]
 
-    for i in range(2,n): #compare biggest to remaining eleements
+    for i in range(2,n): #compare biggest to remaining elements (beyond first two)
         if number_list[i] >= biggest: # n-2 comparisons
             second_biggest, biggest = biggest, number_list[i]
         elif number_list[i] > second_biggest: # another n-2 comparisons
