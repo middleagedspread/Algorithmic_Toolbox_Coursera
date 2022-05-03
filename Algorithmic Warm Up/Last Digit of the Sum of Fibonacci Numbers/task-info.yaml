@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 470
-    length: 9
+    length: 539
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 470
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -45,7 +45,7 @@ files:
   visible: true
   placeholders:
   - offset: 513
-    length: 9
+    length: 7
     placeholder_text: type here
     initial_state:
       length: 9
@@ -108,4 +108,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
+    to Coursera</a>
+  time: Tue, 03 May 2022 18:49:30 UTC
 record: -1
