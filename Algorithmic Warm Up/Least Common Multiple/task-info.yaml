@@ -3,14 +3,14 @@ files:
 - name: lcm.py
   visible: true
   placeholders:
-  - offset: 292
-    length: 9
+  - offset: 352
+    length: 83
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 292
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -102,4 +102,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
+    to Coursera</a>
+  time: Tue, 03 May 2022 16:17:56 UTC
 record: -1
