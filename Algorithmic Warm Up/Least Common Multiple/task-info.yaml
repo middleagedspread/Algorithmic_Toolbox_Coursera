@@ -3,7 +3,7 @@ files:
 - name: lcm.py
   visible: true
   placeholders:
-  - offset: 352
+  - offset: 354
     length: 83
     placeholder_text: type here
     initial_state:
@@ -105,5 +105,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
     to Coursera</a>
-  time: Tue, 03 May 2022 16:17:56 UTC
+  time: Tue, 03 May 2022 16:53:09 UTC
 record: -1

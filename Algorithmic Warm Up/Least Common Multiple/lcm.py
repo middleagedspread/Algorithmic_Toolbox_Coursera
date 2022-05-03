@@ -1,5 +1,5 @@
 # python3
-import time
+# import time
 
 
 def lcm_naive(a, b):
@@ -34,8 +34,18 @@ def lcm(a, b):  # using Euclid's GCD
     larger, smaller = max(a,b), min(a,b)
     return int(smaller * larger / gcd(larger,smaller))
 
-# if __name__ == '__main__':
-#     input_a, input_b = map(int, input().split())
-#     print(lcm(input_a, input_b))
+if __name__ == '__main__':
+    input_a, input_b = map(int, input().split())
+    print(lcm(input_a, input_b))
 
-print(lcm(47,64))
+# tic = time.perf_counter()
+# print(lcm_euclid(12345678,87654321))
+# toc = time.perf_counter()
+#
+# print(f"lcm_euclid Ran in {toc - tic:0.8f} seconds")
+#
+# tic = time.perf_counter()
+# print(lcm(12345678,87654321))
+# toc = time.perf_counter()
+#
+# print(f"lcm ,ran in {toc - tic:0.8f} seconds")
