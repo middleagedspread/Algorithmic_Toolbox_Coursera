@@ -39,9 +39,10 @@ def fibonacci_number_again(n, m):
     return current
 
 
-# if __name__ == '__main__':
-#     input_n, input_m = map(int, input().split())
-#     print(fibonacci_number_again(input_n, input_m))
+if __name__ == '__main__':
+    input_n, input_m = map(int, input().split())
+    print(fibonacci_number_again(input_n, input_m))
 
 # print(fibonacci_number_again_naive(115,10))
-# print(fibonacci_number_again(2019,5))
+# print(fibonacci_number_again(10,2))
+
