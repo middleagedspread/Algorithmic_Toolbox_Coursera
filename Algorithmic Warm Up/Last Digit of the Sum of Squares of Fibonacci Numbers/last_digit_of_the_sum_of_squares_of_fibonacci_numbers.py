@@ -15,13 +15,29 @@ def last_digit_of_the_sum_of_squares_of_fibonacci_numbers_naive(n):
 
     return sum([f ** 2 for f in fibonacci_numbers]) % 10
 
+def last_digit_of_fibonacci_number(n):
+    assert 0 <= n <= 10 ** 18
+
+    if n > 60:  # the last digit of the fibbonaci sequence repeats after 60 cycles
+        n = n % 60
+    if n <= 1:
+        return n
+    previous, current = 0, 1
+    for _ in range(n - 1):
+        previous, current = current, (previous + current) % 10
+
+    return current
 
 def last_digit_of_the_sum_of_squares_of_fibonacci_numbers(n):
     assert 0 <= n <= 10 ** 18
 
-    type here
+    return (last_digit_of_fibonacci_number(n)*last_digit_of_fibonacci_number(n+1))%10
 
 
 if __name__ == '__main__':
     input_n = int(input())
     print(last_digit_of_the_sum_of_squares_of_fibonacci_numbers(input_n))
+
+# print(last_digit_of_fibonacci_number(1234567890))
+# print(last_digit_of_fibonacci_number(1234567891))
+# print(last_digit_of_the_sum_of_squares_of_fibonacci_numbers(1234567890))
