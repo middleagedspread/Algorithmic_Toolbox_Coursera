@@ -3,14 +3,14 @@ files:
 - name: fibonacci_number_again.py
   visible: true
   placeholders:
-  - offset: 369
-    length: 9
+  - offset: 821
+    length: 332
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 369
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -43,13 +43,13 @@ files:
   visible: true
   placeholders:
   - offset: 456
-    length: 9
+    length: 11
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 456
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -121,4 +121,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
+    to Coursera</a>
+  time: Tue, 03 May 2022 17:56:19 UTC
 record: -1

@@ -3,8 +3,8 @@ files:
 - name: last_digit_of_fibonacci_number.py
   visible: true
   placeholders:
-  - offset: 404
-    length: 156
+  - offset: 430
+    length: 162
     placeholder_text: type here
     initial_state:
       length: 9
@@ -107,5 +107,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
     to Coursera</a>
-  time: Tue, 03 May 2022 15:51:00 UTC
+  time: Tue, 03 May 2022 17:36:02 UTC
 record: -1
