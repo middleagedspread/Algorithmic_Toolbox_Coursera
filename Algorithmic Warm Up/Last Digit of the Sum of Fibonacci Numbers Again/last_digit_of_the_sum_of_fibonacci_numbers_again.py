@@ -23,7 +23,8 @@ def last_digit_of_the_sum_of_fibonacci_numbers_again(from_index, to_index):
 
     if to_index == 0:
         return 0
-
+    if to_index < from_index:
+        to_index += 60
     fibonacci_numbers = [0] * (to_index + 1)
     fibonacci_numbers[0] = 0
     fibonacci_numbers[1] = 1
@@ -38,4 +39,7 @@ if __name__ == '__main__':
     print(last_digit_of_the_sum_of_fibonacci_numbers_again(input_from, input_to))
 
 # print(last_digit_of_the_sum_of_fibonacci_numbers_again(10,10))
-# print(last_digit_of_the_sum_of_fibonacci_numbers_again(100,200))
+# print(f"index of 5618252 is {5618252 % 60}")
+# print(f"index of 6583591534156 is {6583591534156 % 60}")
+#
+# print(last_digit_of_the_sum_of_fibonacci_numbers_again(5618252, 6583591534156))

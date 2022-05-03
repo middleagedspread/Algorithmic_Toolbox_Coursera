@@ -3,14 +3,14 @@ files:
 - name: car_fueling.py
   visible: true
   placeholders:
-  - offset: 259
-    length: 9
+  - offset: 271
+    length: 348
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 259
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -38,13 +38,13 @@ files:
   visible: true
   placeholders:
   - offset: 307
-    length: 9
+    length: 27
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 307
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -106,4 +106,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/submission">submit
+    to Coursera</a>
+  time: Tue, 03 May 2022 21:18:33 UTC
 record: -1

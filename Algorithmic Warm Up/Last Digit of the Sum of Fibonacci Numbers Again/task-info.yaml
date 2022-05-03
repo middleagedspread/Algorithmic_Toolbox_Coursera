@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 722
-    length: 323
+    length: 375
     placeholder_text: type here
     initial_state:
       length: 9
@@ -122,5 +122,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission">submit
     to Coursera</a>
-  time: Tue, 03 May 2022 19:10:20 UTC
+  time: Tue, 03 May 2022 19:28:23 UTC
 record: -1
