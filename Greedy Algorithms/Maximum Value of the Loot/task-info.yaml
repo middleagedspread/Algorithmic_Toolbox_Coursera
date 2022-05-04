@@ -7,7 +7,7 @@ files:
   visible: true
   placeholders:
   - offset: 318
-    length: 484
+    length: 686
     placeholder_text: type here
     initial_state:
       length: 9
@@ -43,7 +43,7 @@ files:
   visible: true
   placeholders:
   - offset: 282
-    length: 9
+    length: 42
     placeholder_text: type here
     initial_state:
       length: 9
@@ -101,5 +101,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/submission">submit
     to Coursera</a>
-  time: Tue, 03 May 2022 23:12:08 UTC
+  time: Wed, 04 May 2022 23:40:50 UTC
 record: -1
