@@ -30,13 +30,13 @@ def maximum_loot_value(capacity, weights, prices):
     return loot
 
 
-# if __name__ == "__main__":
-#     data = list(map(int, stdin.read().split()))
-#     n, input_capacity = data[0:2]
-#     input_prices = data[2:(2 * n + 2):2]
-#     input_weights = data[3:(2 * n + 2):2]
-#     opt_value = maximum_loot_value(input_capacity, input_weights, input_prices)
-#     print("{:.10f}".format(opt_value))
+if __name__ == "__main__":
+    data = list(map(int, stdin.read().split()))
+    n, input_capacity = data[0:2]
+    input_prices = data[2:(2 * n + 2):2]
+    input_weights = data[3:(2 * n + 2):2]
+    opt_value = maximum_loot_value(input_capacity, input_weights, input_prices)
+    print("{:.10f}".format(opt_value))
 
 # print(maximum_loot_value(50, [20, 50, 30], [60, 100, 120]))
 # print (maximum_loot_value(10, [30], [500]))
