@@ -10,7 +10,7 @@ def compute_optimal_summands(n):
     # rearranging k(k+1)/2 <= n gives us
     # k <= ((8n +1)**0.5 - 1) / 2
     # find k then a for loop to create the integers
-    number_of_prizes = int(((8 * n + 1) ** 0.5 - 1) // 2)
+    number_of_prizes = int(((8 * n + 1) ** 0.5 - 1) // 2)  # note floor division
 
     for i in range(1, int(number_of_prizes)):  # O(n**0.5)
         summands.append(i)
