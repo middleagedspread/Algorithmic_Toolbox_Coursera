@@ -34,12 +34,12 @@ def largest_number(numbers):  # parameter is list of integers 1<= n <= 999
     largest = "".join(largest)  # concatenate
     return int(largest)  # return as an integer
 
-#
-# if __name__ == '__main__':
-#     n = int(input())
-#     input_numbers = input().split()
-#     assert len(input_numbers) == n
-#     print(largest_number(input_numbers))
+
+if __name__ == '__main__':
+    n = int(input())
+    input_numbers = input().split()
+    assert len(input_numbers) == n
+    print(largest_number(input_numbers))
 
 
 # print(largest_number_naive([1, 11, 13, 111, 113, 131, 132, 133, 1000]))
