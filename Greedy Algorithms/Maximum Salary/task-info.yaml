@@ -87,7 +87,7 @@ files:
 - name: maximum_salary.py
   visible: true
   placeholders:
-  - offset: 775
+  - offset: 777
     length: 252
     placeholder_text: type here
     initial_state:

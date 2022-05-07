@@ -15,7 +15,7 @@ def largest_number_naive(numbers):
 
 
 def sort_key(n):  # sort order for largest number problem
-    assert 0 <= n < 999
+    # assert 0 <= n < 999
     n = str(n)  #convert number to string
     if len(n) == 1:  # if a single digit number n
         return int(n + n + n)  # convert to three digit nnn
