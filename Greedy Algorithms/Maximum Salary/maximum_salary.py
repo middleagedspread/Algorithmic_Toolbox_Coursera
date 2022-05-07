@@ -24,7 +24,7 @@ def sort_key(n):  # sort order for largest number problem
     elif len(n) == 3:  # if a three digit number nmo
         return int(n)  # return nmo
     elif len(n) == 4:  # if a four digit number 1000
-        return int(0)  # return 0
+        return 0.5  # return 0.5 so it comes before 0
 
 
 
@@ -41,6 +41,6 @@ if __name__ == '__main__':
     assert len(input_numbers) == n
     print(largest_number(input_numbers))
 
-
-# print(largest_number_naive([1, 11, 13, 111, 113, 131, 132, 133, 1000]))
-# print(largest_number([1, 11, 13, 111, 113, 131, 132, 133, 1000]))
+#
+# print(largest_number_naive([0, 11, 13, 111, 113, 131, 132, 133, 1000]))
+# print(largest_number([0, 11, 13, 111, 113, 131, 132, 133, 1000]))
