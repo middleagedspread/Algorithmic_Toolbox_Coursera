@@ -38,12 +38,5 @@ if __name__ == '__main__':
     assert len(input_numbers) == n
     print(largest_number(input_numbers))
 
-# print(largest_number_naive([2, 21, 23, 211, 213, 231, 232,233]))
-# print(largest_number([2, 21, 23, 211, 213, 231, 232,233]))
-# print(largest_number_naive([1, 11, 13, 111, 113, 131, 132, 133, 100]))
-# print(largest_number([1, 11, 13, 111, 113, 131, 132, 133, 100]))
 
-# test_list = [2, 21, 23, 211, 213, 231, 232,233]
-# for num in test_list:
-#     print(sort_key(num))
 
