@@ -87,8 +87,8 @@ files:
 - name: maximum_salary.py
   visible: true
   placeholders:
-  - offset: 888
-    length: 252
+  - offset: 1272
+    length: 304
     placeholder_text: type here
     initial_state:
       length: 9
@@ -128,5 +128,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/submission">submit
     to Coursera</a>
-  time: Sat, 07 May 2022 16:17:59 UTC
+  time: Sun, 08 May 2022 01:05:42 UTC
 record: -1

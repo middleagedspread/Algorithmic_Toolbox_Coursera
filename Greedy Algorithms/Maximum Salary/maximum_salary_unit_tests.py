@@ -18,7 +18,7 @@ class TestLargestNumber(unittest.TestCase):
                              largest_number_naive(numbers))
 
     def test_random(self):
-        for n in range(2, 7):
+        for n in range(1, 10):
             for max_value in [10, 20, 100, 1000]:
                 for _ in range(10):
                     numbers = [randint(1, max_value) for _ in range(n)]
