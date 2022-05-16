@@ -38,9 +38,10 @@ def binary_search(keys, query):
 
 
 if __name__ == '__main__':
-    input_keys = list(map(int, input().split()))[1:]
-    input_queries = list(map(int, input().split()))[1:]
-
+    input_keys = list(map(int, input().split()))[:]
+    print(input_keys)
+    input_queries = list(map(int, input().split()))[:]
+    print(input_queries)
     for q in input_queries:
         print(binary_search(input_keys, q), end=' ')
 
