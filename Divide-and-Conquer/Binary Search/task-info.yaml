@@ -105,8 +105,8 @@ files:
 - name: binary_search.py
   visible: true
   placeholders:
-  - offset: 183
-    length: 1760
+  - offset: 142
+    length: 465
     placeholder_text: type here
     initial_state:
       length: 9
@@ -145,5 +145,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission">submit
     to Coursera</a>
-  time: Mon, 16 May 2022 21:51:51 UTC
+  time: Mon, 16 May 2022 23:01:55 UTC
 record: -1
