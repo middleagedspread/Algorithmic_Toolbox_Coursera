@@ -8,7 +8,7 @@ class TestNumberOfInversions(unittest.TestCase):
         for array in [
             ([1, 2, 3]),
             ([3, 2, 1]),
-            type here
+            ([6,5,4,3,2,1])
         ]:
             self.assertEqual(compute_inversions(array),
                              compute_inversions_naive(array))
@@ -22,7 +22,7 @@ class TestNumberOfInversions(unittest.TestCase):
 
     def test_large(self):
         self.assertEqual(compute_inversions([1] * 100), 0)
-        type here
+        self.assertEqual(compute_inversions([2] * 100), 0)
 
 if __name__ == '__main__':
     unittest.main()

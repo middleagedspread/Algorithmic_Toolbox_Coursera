@@ -6,25 +6,25 @@ files:
 - name: organizing_lottery_unit_tests.py
   visible: true
   placeholders:
-  - offset: 245
-    length: 9
+  - offset: 259
+    length: 36
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 245
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 456
-    length: 9
+  - offset: 490
+    length: 583
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 456
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
-  - offset: 501
+  - offset: 1113
     length: 9
     placeholder_text: type here
     initial_state:
@@ -88,14 +88,14 @@ files:
 - name: organizing_lottery.py
   visible: true
   placeholders:
-  - offset: 416
-    length: 9
+  - offset: 426
+    length: 1240
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 416
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -130,4 +130,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission">submit
+    to Coursera</a>
+  time: Thu, 19 May 2022 19:06:30 UTC
 record: -1

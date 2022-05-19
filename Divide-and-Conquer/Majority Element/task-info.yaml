@@ -6,14 +6,14 @@ files:
 - name: majority_element.py
   visible: true
   placeholders:
-  - offset: 268
-    length: 9
+  - offset: 265
+    length: 1163
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 268
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -125,4 +125,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission">submit
+    to Coursera</a>
+  time: Tue, 17 May 2022 04:01:39 UTC
 record: -1
