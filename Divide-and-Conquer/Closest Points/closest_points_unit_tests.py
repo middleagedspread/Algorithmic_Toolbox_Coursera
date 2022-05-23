@@ -7,7 +7,7 @@ class ClosestPoints(unittest.TestCase):
     def test_small(self):
         for points in (
             [Point(1, 0), Point(1, 1)],
-            type here
+            [Point(4, 4), Point(-2, -2), Point(-3, -4), Point(-1, 3), Point(2, 3), Point(-4, 0), Point(1, 1), Point(-1, -1), Point(3, -1), Point(-4, 2), Point(-2, 4)]
         ):
             self.assertAlmostEqual(minimum_distance_squared(points),
                                    minimum_distance_squared_naive(points),
@@ -26,8 +26,8 @@ class ClosestPoints(unittest.TestCase):
                                        minimum_distance_squared_naive(points),
                                        delta=1e-03)
 
-    def test_large(self):
-        type here
+    # def test_large(self):
+    #     type here
 
 
 if __name__ == '__main__':
