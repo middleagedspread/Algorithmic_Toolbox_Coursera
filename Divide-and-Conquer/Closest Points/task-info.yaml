@@ -3,8 +3,8 @@ files:
 - name: closest_points.py
   visible: true
   placeholders:
-  - offset: 583
-    length: 5369
+  - offset: 582
+    length: 4434
     placeholder_text: type here
     initial_state:
       length: 9
@@ -144,5 +144,5 @@ status: Unchecked
 feedback:
   message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/w9YDz/programming-assignment-4-divide-and-conquer/submission">submit
     to Coursera</a>
-  time: Fri, 20 May 2022 03:36:13 UTC
+  time: Mon, 23 May 2022 16:32:11 UTC
 record: -1
