@@ -10,7 +10,7 @@ class EditDistance(unittest.TestCase):
             ("editing", "distance", 5),
             ("a" * 100, "a" * 100, 0),
             ("ab" * 50, "ba" * 50, 2),
-            type here
+            ("there once was a ship that went to sea", "and the name of the ship was the billy o tea", 28)
         ):
             self.assertEqual(edit_distance(first_string, second_string), answer)
 

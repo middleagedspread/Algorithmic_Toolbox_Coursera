@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 364
-    length: 9
+    length: 94
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 364
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -83,14 +83,14 @@ files:
 - name: edit_distance.py
   visible: true
   placeholders:
-  - offset: 64
-    length: 9
+  - offset: 91
+    length: 1932
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 64
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     # python3
@@ -105,4 +105,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/submission">submit
+    to Coursera</a>
+  time: Tue, 07 Jun 2022 20:33:26 UTC
 record: -1
