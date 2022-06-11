@@ -77,8 +77,8 @@ files:
 - name: partition_souvenirs.py
   visible: true
   placeholders:
-  - offset: 2475
-    length: 430
+  - offset: 498
+    length: 1525
     placeholder_text: type here
     initial_state:
       length: 9
