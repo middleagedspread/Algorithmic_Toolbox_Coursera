@@ -16,7 +16,7 @@ class PartitionSouvenirs(unittest.TestCase):
     def test_medium(self):
         for values, answer in (
             ((3, 4, 5, 3, 4, 5, 3, 4, 5), 1),
-            type here
+            ((1, 2, 3, 7, 8, 9, 5, 5, 5), 1)
         ):
             self.assertEqual(partition3(values), answer)
 

@@ -39,13 +39,13 @@ files:
   visible: true
   placeholders:
   - offset: 501
-    length: 9
+    length: 32
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 501
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     import unittest
@@ -77,14 +77,14 @@ files:
 - name: partition_souvenirs.py
   visible: true
   placeholders:
-  - offset: 467
-    length: 9
+  - offset: 2475
+    length: 430
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 467
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |
     from itertools import product
@@ -115,6 +115,16 @@ files:
         assert input_n == len(input_values)
         print(partition3(input_values))
   learner_created: false
+- name: partition_problem.py
+  visible: true
+  learner_created: true
+- name: perfect_sum_algorithms.py
+  visible: true
+  learner_created: true
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/nZrTS/programming-assignment-6-dynamic-programming-2/discussions
 status: Unchecked
+feedback:
+  message: Local tests passed, please <a href="https://www.coursera.org/learn/algorithmic-toolbox/programming/nZrTS/programming-assignment-6-dynamic-programming-2/submission">submit
+    to Coursera</a>
+  time: Fri, 10 Jun 2022 22:48:42 UTC
 record: -1
